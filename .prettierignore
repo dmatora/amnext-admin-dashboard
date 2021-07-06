@@ -15,9 +15,9 @@ tailwind.config.js
 *.md
 
 .next
-.envrc
+.env
 .nvmvrc
-.envrc.example
+.env.example
 
 # dependencies
 /node_modules

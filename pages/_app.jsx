@@ -77,6 +77,12 @@ const InitPoolTogetherHooks = ({ children }) => {
   useInitInfuraId(process.env.NEXT_JS_INFURA_ID)
   useInitReducedMotion(Boolean(process.env.NEXT_JS_REDUCE_MOTION))
   useInitCookieOptions(process.env.NEXT_JS_DOMAIN_NAME)
+  console.log({
+    infuraId: process.env.NEXT_JS_INFURA_ID,
+    fortmaticKey: process.env.NEXT_JS_FORTMATIC_API_KEY,
+    portisKey: process.env.NEXT_JS_PORTIS_API_KEY,
+    defaultNetworkName: process.env.NEXT_JS_DEFAULT_ETHEREUM_NETWORK_NAME
+  })
   useInitializeOnboard({
     infuraId: process.env.NEXT_JS_INFURA_ID,
     fortmaticKey: process.env.NEXT_JS_FORTMATIC_API_KEY,
