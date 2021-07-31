@@ -58,7 +58,7 @@ body {
 hr {
   border: 0;
   height: 0;
-  border-top: 2px solid var(--color-border-primary);
+  border-top: 2px solid var(--color-text-green-1);
   border-bottom: none;
   background: transparent;
   margin: 20px auto;
