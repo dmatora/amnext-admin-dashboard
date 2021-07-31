@@ -65,6 +65,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <script src="//code.jquery.com/jquery-1.11.1.min.js" />
         <link href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" />
       </Head>
     <ErrorBoundary>
