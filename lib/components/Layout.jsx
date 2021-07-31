@@ -52,10 +52,6 @@ export const Layout = (props) => {
                 })}
               </div>
             </div>
-
-            <div className='main-footer z-10'>
-              <Footer />
-            </div>
           </div>
         </div>
       </div>
